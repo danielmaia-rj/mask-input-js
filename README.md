@@ -19,4 +19,4 @@ Usabilidade:
 
 Exemplos:
 ---------
-O exemplo se encontram no ```maskphone.html``` no src do projeto ou veja o exemplo [aqui](http://output.jsbin.com/hasewuqosu)
+O exemplo se encontram no ```maskphone.html``` no src do projeto ou veja o exemplo [aqui](http://output.jsbin.com/poteko)
