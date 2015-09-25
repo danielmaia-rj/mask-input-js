@@ -4,7 +4,7 @@ Javascript que formata campos do tipo telefone utilizando o plugin [jquery.mask]
 
 Informações:
 ------------
-As informações em utilizadas para diferenciar os números de telefone entre fixo ou celular, e aplicação ou não do nono dígito, foram retiradas do site da Anatel:
+As informações utilizadas para diferenciar os números de telefone entre fixo ou celular, e aplicação ou não do nono dígito, foram retiradas do site da Anatel:
 
 [Tabela Serviço Telefônico Fixo Comutado](http://www.anatel.gov.br/setorregulado/index.php?option=com_content&view=article&id=331)
 
@@ -19,4 +19,4 @@ Usabilidade:
 
 Exemplos:
 ---------
-Os exemplos se encontram no ```maskphone.html``` no src do projeto
+O exemplo se encontram no ```maskphone.html``` no src do projeto ou veja o exemplo [aqui](http://output.jsbin.com/hasewuqosu)
