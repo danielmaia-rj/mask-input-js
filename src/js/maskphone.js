@@ -20,18 +20,18 @@
 		function aplicarMascaraInit(elemento) {
 			elemento.each(function(){
 
-				$(this).val($(this).val().replace(/\b0+/g,''));
+				$(this).val($(this).val().replace(/\b0+/,''));
 				aplicar(this);
 			});
 		};
 
 		function aplicarMascaraOnKeyup (elemento) {
 			elemento.each(function(){
-				$(this).val($(this).val().replace(/\b0+/g,''));
-				if ($(this).val().replace(/[^0-9\.]/g, '').length >= 3)
+				$(this).val($(this).val().replace(/[^0-9\.]/g, '').replace(/\b0+/,''));
+				if ($(this).val().length >= 3)
 					mascaraAplicada = false;
 
-				if ($(this).val().replace(/[^0-9\.]/g, '').length == 3 && mascaraAplicada == false) {
+				if ($(this).val().length == 3 && mascaraAplicada == false) {
 					aplicar(this);
 				};
 			});
